@@ -14,6 +14,7 @@
 		16CD8757222CE98600ABF83C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CD8755222CE98600ABF83C /* LaunchScreen.storyboard */; };
 		16CD8762222CE98600ABF83C /* AutoLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD8761222CE98600ABF83C /* AutoLoginTests.swift */; };
 		16CD876D222CE98600ABF83C /* AutoLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD876C222CE98600ABF83C /* AutoLoginUITests.swift */; };
+		16CD877B222CED6900ABF83C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CD877A222CED6900ABF83C /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		16CD8768222CE98600ABF83C /* AutoLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CD876C222CE98600ABF83C /* AutoLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginUITests.swift; sourceTree = "<group>"; };
 		16CD876E222CE98600ABF83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CD877A222CED6900ABF83C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				16CD8753222CE98600ABF83C /* Assets.xcassets */,
 				16CD8755222CE98600ABF83C /* LaunchScreen.storyboard */,
 				16CD8758222CE98600ABF83C /* Info.plist */,
+				16CD877A222CED6900ABF83C /* WelcomeViewController.swift */,
 			);
 			path = AutoLogin;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16CD877B222CED6900ABF83C /* WelcomeViewController.swift in Sources */,
 				16CD874F222CE98400ABF83C /* ViewController.swift in Sources */,
 				16CD874D222CE98400ABF83C /* AppDelegate.swift in Sources */,
 			);
